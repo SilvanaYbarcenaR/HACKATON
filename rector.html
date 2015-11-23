@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://www.bootply.com/run -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body style="padding-top:60px">
+        
+<header>
+    <div class="bckgimg"><img src="img/icon/home.png" alt="home icon"/></div>
+    <div class="fips"><img src="img/facult-ban.png" alt="Facultad de Producción y Servicios"></div>
+    <p class="ENTRAR">ENTRAR</p><p>Contraseña</p><p>Usuario</p>
+  </header>
+
+<div class="hoja-de-vida">
+
+  <div class="container ">
+      <div id="masthead">  
+      
+        
+          <h2>  <span class="icon-user-tie"></span> Dr. Victor Linares Huaco
+
+            <p class="lead">Rector</p>
+          </h2>
+            
+      
+
+      </div><!--/container-->
+  </div><!--/masthead-->
+
+<!--main-->
+<div class="container ccontt">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked affix" id="sidebar">
+          <li class="active"><a href="#dat-pers"><span class="icon-study"></span> Datos Personales</a></li>
+          <li class=""><a href="#estudios"><span class="icon-study"></span> Estudios</a></li>
+          <li class=""><a href="#carg-desem"> <span class="icon-briefcase"></span>Experiencia</a></li>
+        <li class=""> <a href="#publicaciones"> <span class="icon-note"></span> Publicaciones</a></li>
+        </ul>
+      </div><!--/left-->
+      
+      <!--right-->
+      <div class="col-md-9">
+        <img  style="float:right;width:200px;" class="img-thumbnail" src="img/persona.jpg " alt=" ">
+            <h4 id="dat-pers">Nacimiento</h4>
+        <p>08 de Abril de 1954</p>
+      <hr>  
+      <h4 id="estudios">Educación</h4>
+
+        <ul><li> Escuela 969 de Yarabamba </li> <li> Educación Secundaria: Colegio Nacional de Independencia Americana </li> <li> Educación Superior: Universidad Nacional de San Agustín </li> <li> Bachiller en Ciencias de la Educación en la Universidad Nacional de San Agustín </li></ul>
+        <h4>Grados y Titulos</h4>
+        <ul><li> Profesor y Licenciado en Educación en la Universidad Nacional de San Agustín </li> <li> Doctor en Educación por la Universidad Nacional de San Agustín</li> </ul>
+      <hr>      
+        <h4 id="carg-desem">Experiencia</h4>
+        <ul>
+          <li>Profesor de la Gran Unidad Escolar Mariano Melgar 1969-1986 </li> <li> Profesor de la Escuela Normal Superior de Varones San Juan Bautista de la Salle 1972-73 </li> <li> Profesor de la Universidad Nacional de San Agustín desde 1974 hasta la fecha. </li>  </ul>
+        <h4>Grados y titulos</h4> 
+          <ul>
+          </li> <li> Secretario General del Sindicato de Docentes de la UNSA </li> <li> Regidor de la Municipalidad Provincial de Arequipa </li> <li> Jefe del Departamento Académico de Educación binary options trading </li> <li> Decano de la Facultad de Educación en 04 periodos </li> <li> Director de la Unidad de Postgrado de la Facultad de Educación </li> <li> Director de la Escuela de Postgrado de la Universidad Nacional de San Agustín </li> <li> Vicerrector Académico de la Universidad Nacional de San Agustín.</li>
+        </ul>
+      <hr>  
+        <h4 id="publicaciones">Publicaciones científicas</h4>
+        <ul>
+          <li>Química Inorgánica (Texto de Educación Secundaria) </li> <li> Química Orgánica (Texto de Educación Secundaria) </li> <li> Métodos y Técnicas del Estudio Superior (Texto Universitario) </li> <li> Educación para la Salud (Texto Universitario) </li> <li> Orientación Educativa (Texto Universitario) </li> <li> Evaluación Educativa (Texto Universitario) </li> <li> Artículos, Folletos, Ensayos, etc.</li>
+        </ul>
+     
+      <hr>  
+        </div><!--/right-->
+  	</div><!--/row-->
+</div><!--/container-->
+</div><!--/hoja de vida-->
+
+
+        
+        <script async="" src="./Bootply snippet - Bootstrap 3 Affix Sidebar_files/analytics.js"></script><script type="text/javascript" src="css/jquery.min.js"></script>
+
+
+        <script type="text/javascript" src="css/bootstrap.min.js"></script>
+
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+        
+        <script type="text/javascript">
+        
+        $(document).ready(function() {
+        
+            $('#sidebar').affix({
+  offset: {
+    top: 100
+  }
+});
+
+/* activate scrollspy menu */
+var $body   = $(document.body);
+var navHeight = $('.navbar').outerHeight(true) + 10;
+
+$body.scrollspy({
+	target: '#leftCol',
+	offset: navHeight
+});
+
+/* smooth scrolling sections */
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 50
+        }, 1000);
+        return false;
+      }
+    }
+});
+        
+        });
+        
+        </script>
+        
+        </body></html>
